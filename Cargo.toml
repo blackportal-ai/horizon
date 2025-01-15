@@ -1,2 +1,2 @@
 [workspace]
-members = ["horizon_cli"]
+members = ["horizon_cli", "horizon_common", "horizon_registry"]
