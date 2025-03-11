@@ -1,16 +1,20 @@
 pub mod commands;
+pub mod job_cmds;
 
 use clap::Parser;
 use commands::{Cli, Command};
 
-fn main() {
+use color_eyre::eyre::Report;
+use job_cmds::JobCommand;
+
+#[tokio::main]
+async fn main() -> Result<(), Report> {
     let cli = Cli::parse();
 
     match cli.cmd {
         Command::Init => {
-            // TODO: How do we want to manage local configuration? Initialization of a toml with
-            // mappings? Confy crate? Other ideas/suggestions?
-            todo!()
+            JobCommand::init_command().await;
+            Ok(())
         }
     }
 }

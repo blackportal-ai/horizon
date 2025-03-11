@@ -132,3 +132,7 @@ rust-project.json
 
 # Flamegraph
 *.svg
+
+# Data and config directories
+/data
+/config

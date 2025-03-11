@@ -1,2 +1,25 @@
 [workspace]
 members = ["horizon_cli", "horizon_common", "horizon_registry"]
+
+[workspace.dependencies]
+clap = { version = "4.5", features = [
+    "derive",
+    "cargo",
+    "wrap_help",
+    "unicode",
+    "string",
+    "unstable-styles",
+] }
+
+# tracing and error reporting dependencies
+color-eyre = { version = "0.6.3" }
+thiserror = { version = "2.0" }
+
+# async dependencies
+tokio = { version = "1.43", features = ["rt-multi-thread", "fs"] }
+tokio-util = "0.7.12"
+
+# app initialization dependencies
+lazy_static = "1.5"
+config = "0.15"
+directories = "6.0"
