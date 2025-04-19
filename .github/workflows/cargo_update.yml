@@ -1,0 +1,17 @@
+name: cargo update
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TZ: Europe/Stockholm
+
+jobs:
+  update:
+    uses: blackportal-ai/infra/.github/workflows/cargo_update.yml@master
+    secrets: inherit

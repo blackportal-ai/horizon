@@ -1,0 +1,17 @@
+name: machete
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+env:
+  TZ: Europe/Stockholm
+
+jobs:
+  cleanup:
+    uses: blackportal-ai/infra/.github/workflows/machete.yml@master
+    secrets: inherit
