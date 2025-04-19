@@ -11,12 +11,12 @@
 <br/>
 
 ![build](https://img.shields.io/github/actions/workflow/status/blackportal-ai/horizon/core.yml?branch=master)
-
-[//]: # (![crates.io]&#40;https://img.shields.io/crates/v/deltaml.svg&#41;)
-
-[//]: # ([![documentation]&#40;https://img.shields.io/badge/docs-deltaml-blue?logo=rust&#41;]&#40;https://docs.rs/deltaml/latest/&#41;)
 [![discord badge]](https://discord.gg/g5HtkAzRNG)
 [![x handle]][x badge]
+
+[//]: # (![crates.io]&#40;https://img.shields.io/crates/v/deltaml.svg&#41;)
+[//]: # ([![documentation]&#40;https://img.shields.io/badge/docs-deltaml-blue?logo=rust&#41;]&#40;https://docs.rs/deltaml/latest/&#41;)
+
 </div>
 
 [x badge]: https://twitter.com/intent/follow?screen_name=BlackPortal_AI
