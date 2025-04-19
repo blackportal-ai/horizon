@@ -1,3 +1,28 @@
+<div align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/blackportal-ai/resources/refs/heads/main/horizon/logo/horizon_logo.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/blackportal-ai/resources/refs/heads/main/horizon/logo/horizon_logo.svg">
+    <img alt="Horizon - A Decentralized GPU Marketplace for Machine Learning Workloads."
+         src="https://raw.githubusercontent.com/blackportal-ai/resources/refs/heads/main/horizon/logo/horizon_logo.svg"
+         width="55%">
+  </picture>
+
+<br/>
+<br/>
+
+![build](https://img.shields.io/github/actions/workflow/status/blackportal-ai/horizon/core.yml?branch=master)
+
+[//]: # (![crates.io]&#40;https://img.shields.io/crates/v/deltaml.svg&#41;)
+
+[//]: # ([![documentation]&#40;https://img.shields.io/badge/docs-deltaml-blue?logo=rust&#41;]&#40;https://docs.rs/deltaml/latest/&#41;)
+[![discord badge]](https://discord.gg/g5HtkAzRNG)
+[![x handle]][x badge]
+</div>
+
+[x badge]: https://twitter.com/intent/follow?screen_name=BlackPortal_AI
+[x handle]: https://img.shields.io/twitter/follow/BlackPortal_AI.svg?style=social&label=Follow
+[discord badge]: https://img.shields.io/discord/1320514043424931861
+
 # Horizon
 A Decentralized GPU Marketplace for Machine Learning Workloads.
 
