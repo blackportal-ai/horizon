@@ -1,2 +1,8 @@
 [workspace]
-members = ["horizon_cli", "horizon_common", "horizon_registry"]
+members = [
+    "crates/cli",
+    "crates/client",
+    "crates/marketplace",
+    "crates/rpc",
+    "crates/types",
+]
