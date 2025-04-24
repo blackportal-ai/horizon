@@ -1,0 +1,14 @@
+syntax = "proto3";
+
+package horizon;
+
+message Platform {
+
+}
+
+message GpuInfo {
+  string gpu_id = 1;
+  string gpu_type = 2;
+  double price = 3;
+  string status = 4;
+}
